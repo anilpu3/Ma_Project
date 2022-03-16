@@ -1,9 +1,10 @@
 #!/bin/bash
 echo "Enter m value"
-read m
-if [ $m -eq 5 ]
+read num
+if [ $num -eq 5 ]
 then
-	echo "$m s equal to 5"
+	echo "$num s equal to 5"
 else
-	echo "$m s not equal to 5"
+	echo "$num s not equal to 5"
 fi
+echo "replaced m with num"
