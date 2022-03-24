@@ -1,10 +1,9 @@
-
 pipeline {
     agent any
     stages {
-        stage('hello') { 
+        stage('checkout') { 
             steps {
-              sh "echo "hello world""
+              sh "git clone https://github.com/anilpu3/hello-world-war"
             }
         }
     }
